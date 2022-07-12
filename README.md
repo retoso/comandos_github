@@ -31,8 +31,6 @@ Desafio de projeto sobre Git/Github
 | git config --global --unset core.editor  | removendo o editor do commit |
 
 
-    
-
 # Vim
 | Comando | Descrição |
 | --- | --- |
@@ -43,9 +41,6 @@ Desafio de projeto sobre Git/Github
 | q | sair e salvar |
 | q! | sem salvar nada |
 
-
-    
-     
 # Git
 | Comando | Descrição |
 | --- | --- |
@@ -61,56 +56,37 @@ Desafio de projeto sobre Git/Github
 	Notas():    
 	 1 - Existe varios cenarios!    
 	 2 - Para apagar novos arquivos que ainda não foram adicionados ao Stage.     
-	 3 - Se você executou git add e quer desfazer, use o reset  
+	 3 - Se você executou git add e quer desfazer, use o reset 
 	 
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-      
-   
-  
-	Notas():    
-	 1 - Existe varios cenarios!    
-	 2 - Para apagar novos arquivos que ainda não foram adicionados ao Stage.     
-	 3 - Se você executou git add e quer desfazer, use o reset     
- 5 - Commit.............................................:      
-	5.1 - Criando um commnit............................: git commit -m "texto"     
-        5.2 - reverter o commit.........................: (antes de enviar a para nuvel)     
-     
- 6 - Visualizando o Histórico de Commits................: git log     
-	7.1 - Histórico de um ou mais arquivos..............: git log -p meus-arquivos    
-	7.2 - Histórico de um autor.........................: git log --autor=nome-autor    
-	7.3 - Histórico por Data............................: git log --after="MMM DD YYYY"     
-    ....................................................: git log --before="MMM DD YYYY"     
-     
- 7 - Branches...........................................: (1)     
-	7.1 - Listando Branches.........................: git branch     
-    ................................................: git branch -a (2)     
-	7.2 - Indo para outra branch....................: git checkout outra-branch     
-	7.3 - Criar uma nova branch.....................: git checkout -b minha-nova-branch     
-	7.4 - Excluindo branches........................: git checkout -d minha-nova-branch (1)     
-	7.5 - Renomeando branches.......................: git branch -m novo-nome-da-branch     
-    ................................................: git branch -m nome-atual novo-nome (2)     
+| Comando | Descrição |
+| --- | --- |	 
+| git commit -m "texto" | Criando um commnit |
+| git log | Visualizando o Histórico de Commits  |
+| git log -p meus-arquivo  | Histórico de um ou mais arquivos |
+| git log --autor=nome-autor | Histórico de um autor |
+| git log --after="MMM DD YYYY"  | Histórico por Data |
+| git log --before="MMM DD YYYY"  | Histórico por Data |
+| git branch | Listando Branches |
+| git branch -a | istando Branches |
+| git checkout outra-branch | Indo para outra branch |
+| git checkout -b minha-nova-branch  | Criar uma nova branch  |
+| git checkout -d minha-nova-branch (1) | Excluindo branches |
+| git branch -m novo-nome-da-branch | Renomeando branches |
+| git branch -m nome-atual novo-nome (2) | Renomeando branche |
         Notas():     
 	 1 - A opção -d é mais segura, pois ela só apaga a branch se você já tiver feito merge ou enviado      
 	     as alterações para seu repositório remoto, evitando perda de código. A opção -D ignora o      
 	     estado da sua branch, forçando a sua remoção.     
 	 2 - Se você estiver em uma branch e quiser renomear outra, você deve passar primeiro o nome atual da      
-	     branch que quer renomear.     
+	     branch que quer renomear. 
+| Comando | Descrição |
+| --- | --- |	
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+      
+ 
      
  8 - Salvando modificações em um Stash.................: git stash (1)     
      ..................................................: git stash push -m meu-novo-stash (2)     
