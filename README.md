@@ -5,27 +5,20 @@ Desafio de projeto sobre Git/Github
 
 
 # Projetos
-
-
-
 | Comando | Descrição |
 | --- | --- |
-| `git status` | Lista de todos os arquivos *modificados ou novos* |
-| `git diff` | Mostra as diferenças do arquivo que **não foram** preparadas |
-
- 1) criar pasta e dar o comando emsp  git init  
- 2) Autor emsp git config --global user.email "tonelli.renato@gmai.com"   
- 3) Nome *Tabspace*  git config --globa user.name "retoso"  
- 4) Adiciona o conteúdo do arq índice..: git add *   
- 5) Comentando ........................: git commit -m "este teste foi realizado com sucesso"    
- 6) Vincular gitRemote.................: git remote add origin https://github.com/retoso/workspace.git     
- 7) Checar o vincuo....................: git remote -v    
- 8) Reconfirmar pendendias.............: git status    
- 9) Enviar tudo........................: git push origin master    
- 10) Puxar.............................: git pull origin master
-    
+| git init | criar pasta e dar o comando |
+| git config --global user.email "tonelli.renato@gmai.com" | Autor |
+| git config --globa user.name "retoso" | Nome |
+| git add *  | Adiciona o conteúdo do arq índice |
+| git commit -m "arquivo .js criado para ..." | Comentando  |
+| git remote add origin https://github.com/retoso/workspace.git | Vincular gitRemote |
+| git remote -v  | Checar o vincuo |
+| git status  | Reconfirmar pendendias |
+| git push origin master | Enviar tudo |
+| git pull origin master | Puxar |
      
-a) GitBash..........................................: Comandos     
+# GitBash
 >>a.1 - lista todos os arquivos...................: ls     
 >>a.2 - limpar a tela.............................: crtl+l     
 >>a.3 - checar as configurações do git............: git config --list     
