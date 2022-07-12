@@ -6,6 +6,13 @@ Desafio de projeto sobre Git/Github
 
 # Projetos
 
+
+
+| Comando | Descrição |
+| --- | --- |
+| `git status` | Lista de todos os arquivos *modificados ou novos* |
+| `git diff` | Mostra as diferenças do arquivo que **não foram** preparadas |
+
  1) criar pasta e dar o comando emsp  git init  
  2) Autor emsp git config --global user.email "tonelli.renato@gmai.com"   
  3) Nome *Tabspace*  git config --globa user.name "retoso"  
