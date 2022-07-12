@@ -6,9 +6,9 @@ Desafio de projeto sobre Git/Github
 
 # Projetos
 
- 1) criar pasta e dar o comando........: git init  
- 2) Autor .............................: git config --global user.email "tonelli.renato@gmai.com"   
- 3) Nome...............................: git config --globa user.name "retoso"  
+ 1) criar pasta e dar o comando *Tabspace*  git init  
+ 2) Autor*Tabspace* git config --global user.email "tonelli.renato@gmai.com"   
+ 3) Nome *Tabspace*  git config --globa user.name "retoso"  
  4) Adiciona o conteúdo do arq índice..: git add *   
  5) Comentando ........................: git commit -m "este teste foi realizado com sucesso"    
  6) Vincular gitRemote.................: git remote add origin https://github.com/retoso/workspace.git     
