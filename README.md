@@ -6,8 +6,8 @@ Desafio de projeto sobre Git/Github
 
 # Projetos
 
- 1) criar pasta e dar o comando *Tabspace*  git init  
- 2) Autor*Tabspace* git config --global user.email "tonelli.renato@gmai.com"   
+ 1) criar pasta e dar o comando emsp  git init  
+ 2) Autor emsp git config --global user.email "tonelli.renato@gmai.com"   
  3) Nome *Tabspace*  git config --globa user.name "retoso"  
  4) Adiciona o conteúdo do arq índice..: git add *   
  5) Comentando ........................: git commit -m "este teste foi realizado com sucesso"    
