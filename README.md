@@ -86,50 +86,45 @@ Desafio de projeto sobre Git/Github
 | git stash push -m meu-novo-stash (2) |  |
 | git stash save "adicionando" (3) |  |
 | git stash list | Listando Stashes |
-|  | Abre a caixa (stash) e revove tudo |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
- 
-    
-	    8.1 - Listando Stashes........	.................: git stash list     
-	    8.2 - Abre a caixa (stash) e	 revove tudo.......: git stash pop 3     
-	    8.2 - Recuperando modificações.................: git stash apply     
-	    8.3 - Recuperando um stash de uma lista........: git stash apply stash@{2}     
-	    8.4 - Removendo Stashes........................: git stash drop stash@{5}     
-        8.5 - Apagar todas as caixas...................: git stash clear     
-	Notas():     
+| git stash pop   | Abre a caixa (stash) e revove tudo |
+| git stash apply | Recuperando modificações |
+| git stash apply stash@{2} | Recuperando um stash de uma lista |
+| git stash drop stash@{5} | Removendo Stashes |
+| git stash clear | Apagar todas as caixas |
+
+        Notas():
 	 1 - Guarda tudo em uma caixa para voce voltar e continuar, neste caso nao precisa fazer um commit.     
 	 2 - Colocando nome no stash     
 	 3 - guardando tudo na caixa para nao poluir outra branch com as mudanças e arquivos da branch atual,     
-             sendo assim nada aparecera no git status e nada para ser commit.     
- 9 - log.............................................: comandos     
-	    9.1 - Visualiza todos os logs................: git log     
-        9.2 - visualiza todos os logs de um diretorio: git log contributing     
- 	    9.3 - resumo de tudo em uma linha............: git log --onine     
-	    9.4 - Interface logica.......................: git log --graph (gitk)     
-10 - Repositorios Remotos............................: comandos     
-	    10.1 - Exibir os repositórios remotos........: git remote     
-	    10.2 - Vincular repositório local com remoto.: git remote add origin git@github.com:retoso/teste.git     
-	    10.3 - Exibir dos repositórios remotos.......: git remote show origin     
-	    10.4 - Renomear um repositório remoto........: git remote rename origin teste     
-	    10.5 - Enviar arq./dir. p/o reposit.remoto...: git push -u origin master (1)(2)     
-        .............................................: git push(3)     
+             sendo assim nada aparecera no git status e nada para ser commit.   
+
+
+
+| Comando | Descrição |
+| --- | --- |	
+| git log | Visualiza todos os logs |
+| git log --graph (gitk) | Interface logica |
+| git remote | Exibir os repositórios remotos |
+| git remote add origin git@github.com:retoso/teste.git| Vincular repositório local com remoto |
+| git remote show origin | Exibir dos repositórios remotos |
+| git remote rename origin teste | Renomear um repositório remoto |
+| git push -u origin master (1)(2) | Enviar arq./dir. p/o reposit.remoto |
+| git push(3) | puxar arq./dir. p/o reposit.remoto |
 	Notas():     
 	 1 - O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.     
 	 2 - Sempre é bom não trabalhar apenas na main para evitar problemas e ter um projeto mais flexível.     
-	 3 - Os demais pushes não precisam dessa informação.     
+	 3 - Os demais pushes não precisam dessa informação.  
 
-11 - Tags...........................................: comandos     
-	    11.1 - Criando uma tag leve.................: git tag vs-1.1     
-	    11.2 - Criando uma tag anotada..............: git tag -a vs-1.1 -m "Minha versão 1.1"     
-	    11.3 - Criando uma tag assinada.............: git tag -s vs-1.1 -m "Minha tag assinada 1.1 (1)     
-	    11.4 - Criando tag a partir d1 commit (hash): git tag -a vs-1.2 9fceb02     
-	    11.5 - Criando tags no repositorio remoto...: git push origin vs-1.2     
+| Comando | Descrição |
+| --- | --- |	
+| git tag vs-1.1 | Criando uma tag leve |
+| git tag -a vs-1.1 -m "Minha versão 1.1" | Criando uma tag anotada |
+| git tag -s vs-1.1 -m "Minha tag assinada 1.1 (1)  | Criando uma tag assinada |
+| git tag -a vs-1.2 9fceb02 | riando tag a partir d1 commit (hash) |
+| git push origin vs-1.2  | Criando tags no repositorio remoto |
 	Notas():     
 	 1 - Para criar uma tag assinada é necessário uma chave privada (GNU Privacy Guard - GPG).     
 	 2 - Caso você queira que ele liste também as branches que estão no repositório remoto, adicione -a     
-       
+    
+  
 
