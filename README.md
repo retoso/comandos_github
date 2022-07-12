@@ -79,20 +79,23 @@ Desafio de projeto sobre Git/Github
 	     estado da sua branch, forçando a sua remoção.     
 	 2 - Se você estiver em uma branch e quiser renomear outra, você deve passar primeiro o nome atual da      
 	     branch que quer renomear. 
+# Stash	     
 | Comando | Descrição |
 | --- | --- |	
+| git stash (1) | Salvando modificações em um Stash |
+| git stash push -m meu-novo-stash (2) |  |
+| git stash save "adicionando" (3) |  |
+| git stash list | Listando Stashes |
+|  | Abre a caixa (stash) e revove tudo |
 |  |  |
 |  |  |
 |  |  |
 |  |  |
-      
+|  |  |
  
-     
- 8 - Salvando modificações em um Stash.................: git stash (1)     
-     ..................................................: git stash push -m meu-novo-stash (2)     
-     ..................................................: git stash save "adicionando" (3)     
-	    8.1 - Listando Stashes.........................: git stash list     
-	    8.2 - Abre a caixa (stash) e revove tudo.......: git stash pop 3     
+    
+	    8.1 - Listando Stashes........	.................: git stash list     
+	    8.2 - Abre a caixa (stash) e	 revove tudo.......: git stash pop 3     
 	    8.2 - Recuperando modificações.................: git stash apply     
 	    8.3 - Recuperando um stash de uma lista........: git stash apply stash@{2}     
 	    8.4 - Removendo Stashes........................: git stash drop stash@{5}     
