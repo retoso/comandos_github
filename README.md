@@ -19,34 +19,70 @@ Desafio de projeto sobre Git/Github
 | git pull origin master | Puxar |
      
 # GitBash
->>a.1 - lista todos os arquivos...................: ls     
->>a.2 - limpar a tela.............................: crtl+l     
->>a.3 - checar as configurações do git............: git config --list     
->>a.4 - apagar credencias no computador...........: git config --global --unset user.email     
-                                                      git config --global --unset user.nickname    
-                                                      git config --global --unset user.name    
->>a.5 - definindo o editor do Commit..............: git config --global core.editor "code --wait"    
->>a.6 - removendo o editor do commit..............: git config --global --unset core.editor     
->>a.7 - Remover diretório.........................: git rm -r diretorio    
-         
-     
+| Comando | Descrição |
+| --- | --- |
+| ls | lista todos os arquivos |
+| crtl+l | limpar a tela |
+| git config --list | checar as configurações do git |
+| git config --global --unset user.email | apagar credencias no computado |
+| git config --global --unset user.nickname | apagar credencias no computado |
+| git config --global --unset user.name | apagar credencias no computado |
+| git config --global core.editor "code --wait" | definindo o editor do Commit |
+| git config --global --unset core.editor  | removendo o editor do commit |
 
-b) Vim..............................................: git config --global merge.tool vimdiff (1)    
-	b.1 - Sair do modo de edição....................: esc    
-	b.2 - Iniciar o comando.........................: :    
-        b.3 - fecghar a mensagem....................: wq    
-        b.4 - sair e salvar.........................: q     
-               b.4.1 - sem salvar nada..............: q!     
+
+    
+
+# Vim
+| Comando | Descrição |
+| --- | --- |
+| git config --global merge.tool vimdiff | Configuracao |
+| esc | Sair do modo de edição |
+| : | Iniciar o comand |
+| wq | fechar a mensage |
+| q | sair e salvar |
+| q! | sem salvar nada |
+
+
+    
      
-# G I T     
+# Git
+| Comando | Descrição |
+| --- | --- |
+| git init  | Iniciando um Repositório  |
+| git status  | Listando Arquivos Modificados |
+
+| Comando | Descrição |
+| --- | --- |
+| git checkout (1)  | Desfazendo Alterações  |
+| git git clean -df (2) | Arquivos não monitorados  |
+| git reset (3) | Removendo arquivos do Stage |
+| git revert HEAD  | Desfazendo o último commit  |
+	Notas():    
+	 1 - Existe varios cenarios!    
+	 2 - Para apagar novos arquivos que ainda não foram adicionados ao Stage.     
+	 3 - Se você executou git add e quer desfazer, use o reset  
+	 
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
       
- 1 - Iniciando um Repositório...........................: git init     
- 2 - Apagando um repositório............................: $ rm -rf .git     
- 3 - Listando Arquivos Modificados......................: git status     
- 4 - Desfazendo Alterações..............................: git checkout (1)     
-	4.1 - Arquivos não monitorados......................: git git clean -df (2)     
- 	4.2 - Removendo arquivos do Stage...................: git reset (3)     
-	4.3 - Desfazendo o último commit....................: git revert HEAD     
+   
+  
 	Notas():    
 	 1 - Existe varios cenarios!    
 	 2 - Para apagar novos arquivos que ainda não foram adicionados ao Stage.     
