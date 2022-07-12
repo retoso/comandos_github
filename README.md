@@ -19,15 +19,15 @@ Desafio de projeto sobre Git/Github
     
      
 a) GitBash..........................................: Comandos     
-	a.1 - lista todos os arquivos...................: ls     
-	a.2 - limpar a tela.............................: crtl+l     
-    a.3 - checar as configurações do git............: git config --list     
-	a.4 - apagar credencias no computador...........: git config --global --unset user.email     
+>>a.1 - lista todos os arquivos...................: ls     
+>>a.2 - limpar a tela.............................: crtl+l     
+>>a.3 - checar as configurações do git............: git config --list     
+>>a.4 - apagar credencias no computador...........: git config --global --unset user.email     
                                                       git config --global --unset user.nickname    
                                                       git config --global --unset user.name    
-	a.5 - definindo o editor do Commit..............: git config --global core.editor "code --wait"    
-	a.6 - removendo o editor do commit..............: git config --global --unset core.editor     
-    a.7 - Remover diretório.........................: git rm -r diretorio    
+>>a.5 - definindo o editor do Commit..............: git config --global core.editor "code --wait"    
+>>a.6 - removendo o editor do commit..............: git config --global --unset core.editor     
+>>a.7 - Remover diretório.........................: git rm -r diretorio    
          
      
 
